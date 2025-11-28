@@ -42,10 +42,12 @@ Dapper + Oracle.ManagedDataAccess.Core + Microsoft.Extensions.Configuration
 ## How to run ?
 
 ```
+0. Install SDK  9.0
 1. CD to Web Project
 2. dotnet watch run
 
 ```
+
 
 
 
