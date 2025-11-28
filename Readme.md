@@ -1,5 +1,6 @@
-RDBSystem/
 
+RDBSystem/
+```
 │── RDBSystem.sln
 │
 ├── RDBSystem.Core
@@ -20,7 +21,7 @@ RDBSystem/
 │   ├── wwwroot/
 │   ├── Middleware/
 │   └── appsettings.json
-
+```
 Dotnet Core 9.x 
 Oracle DB 11.x
 Dapper + Oracle.ManagedDataAccess.Core + Microsoft.Extensions.Configuration
