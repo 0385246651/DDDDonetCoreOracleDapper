@@ -1,4 +1,4 @@
-
+#Raiden_Nguyen aka HaiBaBa
 RDBSystem/
 ```
 │── RDBSystem.sln
@@ -46,4 +46,5 @@ Dapper + Oracle.ManagedDataAccess.Core + Microsoft.Extensions.Configuration
 2. dotnet watch run
 
 ```
+
 
