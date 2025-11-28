@@ -1,0 +1,25 @@
+﻿@model IEnumerable<DDDRdb.Core.Entities.User>
+
+<h2 class="mb-3">Danh sách User</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>UserID</th>
+            <th>Username</th>
+            <th>Dept</th>
+            <th>Authority</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.UserId</td>
+                <td>@u.Username</td>
+                <td>@u.Dept</td>
+                <td>@u.Authority</td>
+            </tr>
+        }
+    </tbody>
+</table>
